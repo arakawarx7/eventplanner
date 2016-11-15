@@ -1,0 +1,22 @@
+extends ./layout.pug
+block title
+  title Events
+
+block body
+  div.events
+    h1 EVENTS
+  div.listingContainer
+      each val in listing
+        div.listingDiv
+          p.title= val.title
+          p.location= val.location
+          p.date= val.date
+          p.summary= val.summary
+          div.buttonContainer
+            button.deleteButton(type='submit')
+              img.red_XIcon(src='https://s6.postimg.org/9fsde7yf5/red_XIcon.png')
+
+            form.form(method='POST' action=`/events/${val.id}`)
+              button.addButton(type='submit')
+               img.greenIcon(src='https://s6.postimg.org/cy4dalzb5/green_Icon.png')
+

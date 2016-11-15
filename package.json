@@ -1,0 +1,31 @@
+{
+  "name": "nodeknockout2016-abcj",
+  "version": "1.0.0",
+  "description": "A barebones Node.js app using [Express 4](http://expressjs.com/).",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cheerio": "^0.22.0",
+    "express": "^4.14.0",
+    "google-auth-library": "^0.9.9",
+    "googleapis": "^14.1.0",
+    "handlebars": "^4.0.5",
+    "path": "^0.12.7",
+    "pug": "^2.0.0-beta6",
+    "request": "^2.76.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rumblex/nodeknockout2016-abcj.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rumblex/nodeknockout2016-abcj/issues"
+  },
+  "homepage": "https://github.com/rumblex/nodeknockout2016-abcj#readme"
+}

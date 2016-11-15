@@ -1,0 +1,95 @@
+body{
+  background-image: url('https://s6.postimg.org/7vn1ftq0x/events.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-y: -23px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.buttonCont {
+  display: flex;
+  justify-content: center;
+}
+
+.eventButton {
+  border-radius: 5px;
+  border: 0;
+  width: 120px;
+  height:50px;
+  font-family:'Roboto',arial,sans-serif;
+  background: #f4f4f4;
+  font-size: 13px;
+  margin-top: 10px;
+  color: grey;
+}
+
+.events{
+  font-size: 32px;
+  display: flex;
+  justify-content: center;
+}
+
+.buttonContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.listingDiv{
+  border-radius: 15px;
+  text-align: center;
+  background-color: rgba(169,169,169,.4);
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.title{
+  font-size: 60px;
+}
+
+.location{
+  font-size: 51px;
+}
+.date{
+  font-size: 43px;
+}
+.summary{
+  font-size: 20px;
+}
+
+.form{
+  display: inline;
+  width:30%;
+}
+.red_XIcon{
+width: 102%;
+}
+
+.greenIcon{
+  width: 102%;
+}
+
+.deleteButton{
+  background-color: transparent;
+  border-color: transparent;
+  width: 30%;
+}
+
+.addButton{
+  width: 100%;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.testDiv{
+  font-size: 40px;
+  width: 30px;
+}
+
+.listingContainer{
+  display: flex;
+  flex-direction: column;
+  width:50%;
+  margin-left: 26%;
+}

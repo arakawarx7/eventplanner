@@ -1,0 +1,12 @@
+extends ./layout.pug
+block title
+  title Sign-in
+
+block body
+
+  div.events
+    h1 Honolulu Magazine Events
+  div.buttonCont
+    div.g-signin2(data-onsuccess="onSignIn")
+  a.buttonCont(href="/events")
+    button.eventButton Enter Events Page
